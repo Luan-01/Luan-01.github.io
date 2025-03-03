@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: darkblue;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+
+  header {
+    background: linear-gradient(135deg, #0e7047, #2575fc);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  header .tagline {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  header .disclaimer {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  header .disclaimer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+
+  section {
+    padding: 40px 0;
+    background: #e7e3e3;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2575fc;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: black;
+  }
+  
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .skill {
+    background: #2575fc;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin: 5px 5px;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+    background: #6a11cb;
+  }
+  
+
+  .project, .job {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #e7e3e3;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover, .job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3, .job h3 {
+    color: #2575fc;
+  }
+  
+
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: #2575fc;
+  }
+  
+
+  footer {
+    background: linear-gradient(135deg, #0e7047, #2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  #summary{
+    padding: 10px;
+  }
